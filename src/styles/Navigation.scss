@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap&subset=latin-ext');
+
+.nav {
+   width: 20vw;
+   height: 100vh;
+
+   position: absolute;
+
+   background-color: #ffffff;
+ 
+   .h1 {
+      position: relative;
+      margin-top: 100px;
+
+      text-align: center;
+
+      font-size: 35px;
+      font-family: 'Courgette', cursive; 
+   }
+
+   a {
+      color: #000;
+      text-decoration: none;
+   } 
+
+   .subpage1 {
+      margin-top: 100px;
+   }
+   
+   .subpage { 
+      font-family: 'Courgette', cursive; 
+      text-align: center;
+      margin-left: 50%;
+      transform: translateX(-50%);
+
+      width: 100px;
+
+      &::selection {
+         background-color: red;
+         color: white;
+      }
+
+      transition-property: all;
+      transition-duration: .5s;
+
+      &:hover {
+         background-color: rgb(211, 0, 0);
+         border-radius: 50px;
+         color: white;
+         transform: translateX(-50%);
+      }
+   }
+   
+}

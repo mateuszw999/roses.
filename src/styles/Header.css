@@ -1,0 +1,14 @@
+.headerImg {
+  height: 100vh;
+  width: calc(80vw - 17px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: absolute;
+  left: 20vw;
+  top: 0;
+}
+/*# sourceMappingURL=Header.css.map */

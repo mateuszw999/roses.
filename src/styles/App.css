@@ -1,0 +1,13 @@
+body {
+ margin: 0;
+ padding: 0;
+ height: 300vh;
+}
+
+.line {
+ position: absolute;
+ height: 130vw;
+ width: calc(100vw - 17px);
+ background-color: pink;
+ top: 100vh
+}
